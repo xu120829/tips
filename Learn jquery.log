@@ -1,0 +1,36 @@
+《锋利的jQuery(第2版)》
+1.jQuery选择器
+1.1 标签选择器：以文档元素作为选择符
+E{
+  css规则
+}
+1.2 ID选择器：以文档元素的唯一标识符ID作为选择符
+#ID{
+   css规则
+}
+1.3 类选择器：以文档元素的clss作为选择符
+E.className{
+   css规则
+}
+1.4 群组选择器：多个选择符应用同样的样式规则
+E1,E2,E3{
+   css规则
+}
+1.5 后代选择器：元素E的任意后代元素F
+E F{
+   css规则
+}
+1.6 通配选择符：以文档的所有元素作为选择符
+*{
+   css规则
+}
+//example
+<p syle="color:red;font-size:30px;">Css Demo</p>
+//equal this below
+<style>
+.demo{
+   color:red;
+   font-size:30px;
+}
+</style>
+<p class="demo">Css Demo</p>
