@@ -1,5 +1,5 @@
 《锋利的jQuery(第2版)》
-1.jQuery选择器
+1.css选择器
 1.1 标签选择器：以文档元素作为选择符
 E{
   css规则
@@ -34,3 +34,11 @@ E F{
 }
 </style>
 <p class="demo">Css Demo</p>
+//
+example1:给所有的p标签添加onclick事件.
+var items = document.getElementsByTagName('p');
+for(var i = 0; i < items.length; i++){
+    items[i].onclick = function(){
+        //doing something.
+    }
+}
