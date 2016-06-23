@@ -42,3 +42,22 @@ for(var i = 0; i < items.length; i++){
         //doing something.
     }
 }
+<table>
+<tbody>
+<tr><td>first line.</td><td>first line.</td></tr>
+<tr><td>second line.</td><td>second line.</td></tr>
+<tr><td>third line.</td><td>third line.</td></tr>
+<tr><td>forth line.</td><td>forth line.</td></tr>
+<tr><td>fivth line.</td><td>fivth line.</td></tr>
+<tr><td>sixth line.</td><td>sixth line.</td></tr>
+</tbody>
+</table>
+//
+var item = document.getElementById('tb');
+var tbody = item.getElementsByTagName('tbody')[0];
+var trs = tbody.getElementsByTagName('tr');
+for(var i = 0; i < trs.length; i++){
+    if(i%2 == 0){
+        trs[i].style.backgroundColor = '#888';
+    }
+}
