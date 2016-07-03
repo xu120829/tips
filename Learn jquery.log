@@ -67,3 +67,9 @@ $(".mini").css("background", "#bbffaa");
 $("div").css("background", "#bbffaa");
 $("*").css("background", "#bbffaa");
 $("span, #two").css("background", "#bbffaa");
+//层次选择器
+$('ancestro descendant')
+$('parent>child')
+$('prev+next')
+$('prev~siblings')
+//示例
