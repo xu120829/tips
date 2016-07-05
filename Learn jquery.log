@@ -73,3 +73,21 @@ $('parent>child')
 $('prev+next')
 $('prev~siblings')
 //示例
+$('body div').css('background', '#bbffaa');
+$('body > div').css('background','#bbffaa');
+$('.one + div').css('background','#bbffaa');
+$('#two ~ div').css('background','#bbffaa');
+$('.one + div') = $('.one').next('div');
+$('#prev~div') = $('#prev').nextAll('div');
+//过滤选择器
+$('div:first').css('background','#bbffaa');
+$('div:last').css('background','#bbffaa');
+$('div:not(.one)').css('background','#bbffaa');
+$('div:even').css('background','#bbffaa');
+$('div:odd').css('background','#bbffaa');
+$('div:eq(3)').css('background','#bbffaa');
+$('div:gt(3)').css('background','#bbffaa');
+$('div:lt(3)').css('background','#bbffaa');
+$(':header').css('background','#bbffaa');
+$(':animated').css('background','#bbffaa');
+$(':focus').css('background','#bbffaa');
