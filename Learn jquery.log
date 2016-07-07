@@ -91,3 +91,11 @@ $('div:lt(3)').css('background','#bbffaa');
 $(':header').css('background','#bbffaa');
 $(':animated').css('background','#bbffaa');
 $(':focus').css('background','#bbffaa');
+//内容过滤
+$('div:contains(di)').css('background', '#bbffaa');
+$('div:empty').css('background', '#bbffaa');
+$('div:has(".mini")').css('background', '#bbffaa');
+$('div:parent').css('background', '#bbffaa');
+//
+$('div:visible').css('background', '#FF6500');
+$('div:hidden').show(3000);
