@@ -99,3 +99,11 @@ $('div:parent').css('background', '#bbffaa');
 //
 $('div:visible').css('background', '#FF6500');
 $('div:hidden').show(3000);
+//
+$('div[title]').css('background', '#bbffaa');
+$('div[title=test]').css('background', '#bbffaa');
+$('div[title!=test]').css('background', '#bbffaa');
+$('div[title^=te]').css('background', '#bbffaa');
+$('div[title$=est]').css('background', '#bbffaa');
+$('div[title*=es]').css('background', '#bbffaa');
+$('div[id][title*=es]').css('background', '#bbffaa');
