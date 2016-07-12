@@ -107,3 +107,13 @@ $('div[title^=te]').css('background', '#bbffaa');
 $('div[title$=est]').css('background', '#bbffaa');
 $('div[title*=es]').css('background', '#bbffaa');
 $('div[id][title*=es]').css('background', '#bbffaa');
+//
+$('div[title^="en"]').css('background', '#bbffaa');
+$('div[title*="en"]').css('background', '#bbffaa');
+$('div[title|="en"]').css('background', '#bbffaa');
+$('div[title~="uk"]').css('background', '#bbffaa');
+//
+$('div.one :nth-child(2)').css('background', '#bbffaa');
+$('div.one :first-child').css('background', '#bbffaa');
+$('div.one :last-child').css('background', '#bbffaa');
+$('div.one :only-child').css('background', '#bbffaa');
