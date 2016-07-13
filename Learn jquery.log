@@ -117,3 +117,15 @@ $('div.one :nth-child(2)').css('background', '#bbffaa');
 $('div.one :first-child').css('background', '#bbffaa');
 $('div.one :last-child').css('background', '#bbffaa');
 $('div.one :only-child').css('background', '#bbffaa');
+//dom core、html-dom and css-dom
+getElementById()
+getElementsByTagName()
+getAttribute()
+setAttribute()
+document.forms
+element.src
+element.style.color
+//search dom node
+var $li = $('ul li:eq(1)');
+var li_txt = $li.text();
+console.log(li_txt);
