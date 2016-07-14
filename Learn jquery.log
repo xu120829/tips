@@ -129,3 +129,11 @@ element.style.color
 var $li = $('ul li:eq(1)');
 var li_txt = $li.text();
 console.log(li_txt);
+//
+var $para = $('p');
+var p_txt = $para.attr('title');
+console.log(p_txt);
+$(html);
+var $li_1 = $('<li>first</li>');
+$('ul').append($li_1);
+append(),appendTo(),prepend(), prependTo()
