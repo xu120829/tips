@@ -136,4 +136,17 @@ console.log(p_txt);
 $(html);
 var $li_1 = $('<li>first</li>');
 $('ul').append($li_1);
-append(),appendTo(),prepend(), prependTo()
+append(),appendTo(),prepend(), prependTo(),after(),insertAfter(),before(),insertBefore()
+remove(),detach(),empty()
+$(this).clone(true).appendTo('body');
+replaceWith(),replaceAll()
+wrapAll(),wrapInner()
+removeAttr()
+html(),text(),val()
+children(),next(),prev(),siblings(),closest(),parent(),parents()
+offset(),position(),scrollTop(),scrollLeft()
+$(document).ready()
+hover(),toggle()
+event.type,event.preventDefault(),event.stopPropagtion(),event.target,event.relatedTarget,event.pageX,event.pageY
+event.which,event.metaKey
+
