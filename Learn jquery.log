@@ -149,4 +149,19 @@ $(document).ready()
 hover(),toggle()
 event.type,event.preventDefault(),event.stopPropagtion(),event.target,event.relatedTarget,event.pageX,event.pageY
 event.which,event.metaKey
-
+xmlhttprequest
+if(window.ActiveXObject){
+ xmlHttpReq = new Active XObject('Microsoft.XMLHTTP');
+}else if(window.XMLHttpRequest){
+ xmlHttpReq = new XMLHttpRequest();
+}
+xmlHttpReq.opne('GET', 'page.*', true);
+xmlHttpReq.onreadystatechange = RequestCallBack();
+xmlHttpReq.send('....');
+function RequestCallBack(){
+     if(xmlHttpReq.readyState == 4){
+         if(xmlHttpReq.status == 200){
+             document.getElementById('resText').innerHTML = xmlHttpReq.responseText;
+         }
+     }
+}
