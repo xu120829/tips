@@ -165,3 +165,22 @@ function RequestCallBack(){
          }
      }
 }
+//
+$('#myForm').ajaxForm(function(){
+$(this).ajaxSubmit(function(){
+   $('#output1').html('submit success.').show();
+});
+return false;
+});
+var options = {
+target:'#output1',
+beforeSubmit:showRequest,
+success:showResponse,
+url:url,
+type:type,
+dataType:null,
+clearForm:true,
+resetForm:true,
+timeout:3000
+};
+$('#myForm').ajaxForm(options);
