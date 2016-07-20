@@ -184,3 +184,30 @@ resetForm:true,
 timeout:3000
 };
 $('#myForm').ajaxForm(options);
+//
+$(document).ready(function(){
+    $(document).bind('contextmenu', function(e){
+        return false;
+    });
+});
+//
+$(document).ready(function(){
+    if($.browser.mozilla && $.browser.version >= '1.8'){
+      //mozilla v1.8+ browser.
+    }
+    if($.browser.safari){
+      //
+    }
+    if($.browser.chrome){
+      //
+    }
+    if($.browser.opera){
+      //
+    }
+    if($.browser.msie && $.browser.version <= 6){
+      //
+    }
+    if($.browser.msie && $.browser.version > 6){
+      //
+    }
+});
