@@ -211,3 +211,8 @@ $(document).ready(function(){
       //
     }
 });
+//
+$.extend($.modal.defaults, {
+   closeClass: 'modalClose',
+   closeHTML: '<a href="#">Close</a>'
+});
