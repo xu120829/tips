@@ -233,3 +233,13 @@ $.extend($.modal.defaults, {
       }
    });
 })(jQuery);
+//
+$(function(){
+    $('#id').bind('click', function(event){
+        var username = $('#username').val();
+        if(username == ''){
+            $('#msg').html('<p>text content can not empty.</p>');
+            event.preventDefault();
+        }
+    });
+});
