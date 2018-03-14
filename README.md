@@ -1,2 +1,2 @@
 # tips
-学习笔记
+learn log.
